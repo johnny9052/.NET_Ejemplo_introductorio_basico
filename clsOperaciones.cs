@@ -1,0 +1,12 @@
+﻿namespace _1.IntroduccionDotNet
+{
+    class clsOperaciones
+    {
+
+        public int sumar(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+
+    }
+}
