@@ -9,8 +9,8 @@ namespace _1.IntroduccionDotNet
     class ClsLogin
     {
 
-        private String usuario;
-        private String password;
+        public String usuario { get; set; }
+        public String password { get; set; }
 
         public ClsLogin()
         {
@@ -23,24 +23,5 @@ namespace _1.IntroduccionDotNet
             this.password = password;
         }
 
-        public String GetUsuario()
-        {
-            return this.usuario;
-        }
-
-        public String GetPassword()
-        {
-            return this.password;
-        }
-
-        public void SetUsuario(String usuario)
-        {
-            this.usuario = usuario;
-        }
-
-        public void SetPassword(String password)
-        {
-            this.password = password;
-        }
     }
 }

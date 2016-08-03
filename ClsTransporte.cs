@@ -8,8 +8,8 @@ namespace _1.IntroduccionDotNet
 {
     internal class ClsTransporte : ClsEntidad
     {
-        private int numeroVehiculos;
-        private int precioCupo;
+        public int numeroVehiculos { get; set; }
+        public int precioCupo { get; set; }
 
         public ClsTransporte(int nit, String nombre, String direccion, int numero, int precio)
         {
@@ -19,25 +19,6 @@ namespace _1.IntroduccionDotNet
             this.numeroVehiculos = numero;
             this.precioCupo = precio;
         }
-
-        public void SetNumeroVehiculos(int numeroVehiculos)
-        {
-            this.numeroVehiculos = numeroVehiculos;
-        }
-
-        public void SetPrecioCupo(int precioCupo)
-        {
-            this.precioCupo = precioCupo;
-        }
-
-        public int GetNumeroVehiculos()
-        {
-            return this.numeroVehiculos;
-        }
-
-          public int GetPrecioCupo()
-        {
-            return this.precioCupo;
-        }
+    
     }
 }

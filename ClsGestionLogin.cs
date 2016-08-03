@@ -23,8 +23,8 @@ namespace _1.IntroduccionDotNet
 
             for (int x = 0; x < listaUsuarios.Count; x++)
             {
-                if (listaUsuarios.ElementAt(x).GetUsuario().Equals(usuario) 
-                    && listaUsuarios.ElementAt(x).GetPassword().Equals(password))
+                if (listaUsuarios.ElementAt(x).usuario.Equals(usuario) 
+                    && listaUsuarios.ElementAt(x).password.Equals(password))
                 {
                     pos = x;
                     return true;                    
@@ -53,7 +53,7 @@ namespace _1.IntroduccionDotNet
 
             for (int i = 0; i < listaUsuarios.Count; i++)
             {
-                if (listaUsuarios.ElementAt(i).GetUsuario().Equals(usuario))
+                if (listaUsuarios.ElementAt(i).usuario.Equals(usuario))
                 {
 
                     return true;
@@ -65,7 +65,7 @@ namespace _1.IntroduccionDotNet
 
         public String buscarNombreUsuario()
         {
-            return listaUsuarios.ElementAt(pos).GetUsuario();
+            return listaUsuarios.ElementAt(pos).usuario;
         }
 
     }

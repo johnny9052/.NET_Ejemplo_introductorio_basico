@@ -27,11 +27,11 @@ namespace _1.IntroduccionDotNet
 
             ClsTransporte transporte = new ClsTransporte(nit,nombre,direccion,numeroVeh,precioCupo);
 
-            MessageBox.Show("Nombre: " + transporte.GetNombre() + "\n" +
-                            "Nit: "+transporte.GetNit()+"\n" +
-                            "Direccion: "+transporte.GetDireccion() + "\n" + 
-                            "Numero de vehiculos: "+transporte.GetNumeroVehiculos() + "\n" + 
-                            "Precio cupo: "+transporte.GetPrecioCupo() + "");
+            MessageBox.Show("Nombre: " + transporte.nombre + "\n" +
+                            "Nit: "+transporte.nit+"\n" +
+                            "Direccion: "+transporte.direccion + "\n" +
+                            "Numero de vehiculos: " + transporte.numeroVehiculos + "\n" +
+                            "Precio cupo: " + transporte.precioCupo + "");
         }
     }
 }

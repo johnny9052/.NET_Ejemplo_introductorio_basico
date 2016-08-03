@@ -12,7 +12,7 @@ namespace _1.IntroduccionDotNet
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola como esta?");
+            MessageBox.Show("Hola mundo?");
         }
     }
 }

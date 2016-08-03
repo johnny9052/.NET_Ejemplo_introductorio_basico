@@ -10,40 +10,9 @@ namespace _1.IntroduccionDotNet
     class ClsEntidad
     {
 
-        protected int nit;
-        protected String nombre;
-        protected String direccion;
-
-        public void SetNit(int nit)
-        {
-            this.nit = nit;
-        }
-
-        public void SetNombre(String nombre)
-        {
-            this.nombre = nombre;
-        }
-
-
-        public void SetDireccion(String direccion)
-        {
-            this.direccion = direccion;
-        }
-
-
-        public int GetNit()
-        {
-            return this.nit;
-        }
-
-        public String GetNombre()
-        {
-            return this.nombre;
-        }
-
-        public String GetDireccion()
-        {
-            return this.direccion;
-        }
+        public int nit { get; set; }
+        public String nombre { get; set; }
+        public String direccion { get; set; }
+        
     }
 }

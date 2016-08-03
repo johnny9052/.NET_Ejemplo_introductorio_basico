@@ -19,9 +19,9 @@ namespace _1.IntroduccionDotNet
 
             clsUsuario usuario = new clsUsuario(nombre, apellido, cedula, fecha);
 
-            MessageBox.Show("El nombre del usuario es " + usuario.getNombre() + ", el apellido es " + 
-                            usuario.getApellido() + ", con cedula no. "+usuario.getCedula() + 
-                            " y nacio el "+usuario.getFecha());
+            MessageBox.Show("El nombre del usuario es " + usuario.nombre + ", el apellido es " + 
+                            usuario.apellido + ", con cedula no. "+usuario.cedula + 
+                            " y nacio el "+usuario.fecha);
         }
     }
 }
